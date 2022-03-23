@@ -14,7 +14,7 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.yellow,
       ),
-      home: const LoginScreen(),
+      home: LoginScreen(),
     );
   }
 }
